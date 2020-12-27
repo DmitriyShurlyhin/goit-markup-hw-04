@@ -82,8 +82,12 @@ p {
   display: flex;
   align-items: center;
   margin-left: auto;
-  /* padding-top: 32px;
-  padding-bottom: 32px; */
+}
+.address-icon-mail {
+  width: 16px;
+  height: 12px;
+  fill: currentColor;
+  margin-right: 10px;
 }
 .nav-link.current {
   color: var(--accent-background-color);
@@ -96,10 +100,19 @@ p {
   line-height: 1.14;
   letter-spacing: 0.02em;
   margin-right: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .address-mail:hover,
 .address-mail:focus {
   color: var(--accent-background-color);
+}
+.address-icon-tel {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+  fill: currentColor;
 }
 .address-tel {
   color: var(--color-grey);
@@ -108,6 +121,9 @@ p {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .address-tel:hover,
 .address-tel:focus {
