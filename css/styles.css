@@ -322,6 +322,15 @@ p {
   background-color: var(--accent-background-color);
 }
 
+/* OUR CLIENTS */
+
+.clients-icon {
+  display: flex;
+}
+.icon-item {
+  border: 1px solid black;
+}
+
 /*Footer*/
 .footer > .container {
   display: flex;
