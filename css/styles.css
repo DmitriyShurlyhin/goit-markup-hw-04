@@ -411,9 +411,7 @@ p {
 .foot-address-tel {
   display: block;
 }
-.subscribe {
-  display: flex;
-}
+
 .subscribe-title {
   color: var(--color-white);
   font-family: Roboto;
